@@ -1,2 +1,6 @@
-<h1>Hello {{userName}}.... This is Angular Application</h1>
-<h2>Current Time: {{currentTime}}</h2>
+<h1>Hello <label [style.color]="myColor">{{userName}}</label>.... This is Angular Application</h1>
+<h2>Current Time ljafdh: {{currentTime}}</h2>
+
+<div *ngFor="let employee of myNames">
+  <h1>{{employee}}</h1>
+</div>
